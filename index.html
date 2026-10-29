@@ -68,7 +68,7 @@
   <div class="brand">MIXIVO</div>
 
   <h1>Privacy Policy</h1>
-  <p class="date">Last updated: October 28, 2026</p>
+  <p class="date">Last updated: October 29, 2026</p>
 
   <p>
     This Privacy Policy explains how MIXIVO handles information when you use
@@ -133,7 +133,7 @@
   </p>
 
   <h2>3a. Google Sign-In</h2>
-  <p>If you choose Google Sign-In, MIXIVO requests only openid, email and profile. Google provides your account identifier, email address and basic profile information to authenticate you and manage your MIXIVO account through Supabase. This access does not grant MIXIVO access to Gmail, Google Drive or your audio projects. Google sign-in data is not used to target advertisements. You can revoke MIXIVO's Google access in your Google Account's third-party connections settings. For account data or deletion requests, contact mixivo.app@gmail.com.</p>
+  <p>If you choose Google Sign-In, MIXIVO requests only openid, email and profile. Google provides your account identifier, email address and basic profile information to authenticate you and manage your MIXIVO account through Supabase. This access does not grant MIXIVO access to Gmail, Google Drive or your audio projects. Google sign-in data is not used to target advertisements. You can revoke MIXIVO's Google access in your Google Account's third-party connections settings. You can delete your MIXIVO account from Account → Delete account in the app. For other account data requests or assistance, contact mixivo.app@gmail.com.</p>
 
   <h2>4. Advertising</h2>
 
@@ -191,13 +191,14 @@
   <h2>7. App Tracking Transparency</h2>
 
   <p>
-    On Apple devices, MIXIVO may request permission through Apple's App Tracking
-    Transparency framework before accessing identifiers used for tracking.
+    The current version of MIXIVO requests non-personalized advertisements,
+    disables Google's publisher first-party identifier, and does not request
+    App Tracking Transparency authorization or access to the IDFA.
   </p>
 
   <p>
-    If permission is denied, MIXIVO can continue to function and advertisements
-    may still be shown without access to the IDFA.
+    Non-personalized ads still involve the processing of technical and advertising
+    data described above; they do not mean that no data is collected.
   </p>
 
   <h2>8. Premium subscriptions and purchases</h2>
@@ -220,6 +221,13 @@
     </a>
   </p>
 
+  <p>
+    Subscription verification uses Supabase and a verification service hosted on
+    Render. This service receives Apple-signed purchase data, including transaction
+    identifiers and an anonymous account token, to verify authenticity. MIXIVO does
+    not send audio files, email addresses or passwords to this verifier.
+  </p>
+
   <h2>9. Data retention</h2>
 
   <p>
@@ -231,6 +239,19 @@
   <p>
     Local projects and audio files remain on the user's device until the user
     deletes them, removes the app, or otherwise removes the relevant local data.
+  </p>
+
+  <p>
+    You can request permanent account deletion in the app under Account → Delete account,
+    with an explicit confirmation. This removes your MIXIVO account and associated
+    server-side profile and subscription records. For accounts linked to Sign in with
+    Apple, the app asks you to confirm your identity so Apple authorization can be revoked.
+    Local projects, audio and exports remain on your device.
+  </p>
+  <p>
+    Deleting your MIXIVO account does not cancel an Apple subscription. Manage or cancel
+    it separately through My Subscription → Manage subscription or your Apple subscription
+    settings. You can delete your MIXIVO account even while a subscription is active.
   </p>
 
   <h2>10. Data security</h2>
@@ -295,7 +316,7 @@
 
 
   <h1>Informativa sulla privacy</h1>
-  <p class="date">Ultimo aggiornamento: 28 ottobre 2026</p>
+  <p class="date">Ultimo aggiornamento: 29 ottobre 2026</p>
 
   <p>
     Questa informativa descrive come MIXIVO gestisce le informazioni durante
@@ -353,7 +374,7 @@
   </p>
 
   <h2>3a. Accesso con Google</h2>
-  <p>Se scegli l’accesso con Google, MIXIVO richiede soltanto openid, email e profile. Google fornisce identificativo dell’account, indirizzo email e informazioni di profilo di base per autenticarti e gestire l’account MIXIVO tramite Supabase. Questo accesso non permette a MIXIVO di accedere a Gmail, Google Drive o ai tuoi progetti audio. I dati dell’accesso Google non vengono usati per personalizzare la pubblicità. Puoi revocare l’accesso di MIXIVO nelle impostazioni delle connessioni con terze parti del tuo Account Google. Per richieste sui dati dell’account o di cancellazione, contatta mixivo.app@gmail.com.</p>
+  <p>Se scegli l’accesso con Google, MIXIVO richiede soltanto openid, email e profile. Google fornisce identificativo dell’account, indirizzo email e informazioni di profilo di base per autenticarti e gestire l’account MIXIVO tramite Supabase. Questo accesso non permette a MIXIVO di accedere a Gmail, Google Drive o ai tuoi progetti audio. I dati dell’accesso Google non vengono usati per personalizzare la pubblicità. Puoi revocare l’accesso di MIXIVO nelle impostazioni delle connessioni con terze parti del tuo Account Google. Puoi eliminare il tuo account MIXIVO dall’app, in Account → Elimina account. Per altre richieste sui dati dell’account o assistenza, contatta mixivo.app@gmail.com.</p>
 
   <h2>4. Pubblicità</h2>
 
@@ -401,14 +422,14 @@
   <h2>7. App Tracking Transparency</h2>
 
   <p>
-    Su dispositivi Apple, MIXIVO può richiedere l'autorizzazione tramite
-    App Tracking Transparency prima di accedere a identificatori utilizzati
-    per il tracciamento.
+    La versione attuale di MIXIVO richiede annunci non personalizzati,
+    disattiva l’identificatore proprietario dell’editore di Google e non richiede
+    l’autorizzazione App Tracking Transparency né l’accesso all’IDFA.
   </p>
 
   <p>
-    Se l'autorizzazione viene negata, MIXIVO continua a funzionare e possono
-    comunque essere mostrati annunci senza accesso all'IDFA.
+    Gli annunci non personalizzati comportano comunque il trattamento dei dati
+    tecnici e pubblicitari descritti sopra: non significano assenza di raccolta dati.
   </p>
 
   <h2>8. Abbonamenti Premium</h2>
@@ -424,6 +445,13 @@
     dell'abbonamento necessarie a verificare l'accesso Premium.
   </p>
 
+  <p>
+    La verifica degli abbonamenti utilizza Supabase e un servizio di verifica ospitato
+    su Render. Questo servizio riceve dati degli acquisti firmati da Apple, inclusi
+    identificatori delle transazioni e un token anonimo dell’account, per verificarne
+    l’autenticità. MIXIVO non invia al verificatore file audio, indirizzi email o password.
+  </p>
+
   <h2>9. Conservazione dei dati</h2>
 
   <p>
@@ -434,6 +462,19 @@
   <p>
     Progetti e file audio locali rimangono sul dispositivo fino alla loro
     eliminazione da parte dell'utente o alla rimozione dei relativi dati locali.
+  </p>
+
+  <p>
+    Puoi richiedere l’eliminazione definitiva dell’account dall’app in Account → Elimina
+    account, con una conferma esplicita. Vengono eliminati l’account MIXIVO e i relativi
+    dati di profilo e abbonamento conservati sul server. Per gli account collegati ad
+    Accedi con Apple, l’app chiede di confermare l’identità per revocare l’autorizzazione
+    Apple. Progetti, audio e brani esportati locali restano sul dispositivo.
+  </p>
+  <p>
+    Eliminare l’account MIXIVO non annulla un abbonamento Apple. Gestiscilo o annullalo
+    separatamente da Il mio abbonamento → Gestisci abbonamento oppure dalle impostazioni
+    degli abbonamenti Apple. Puoi eliminare l’account MIXIVO anche con un abbonamento attivo.
   </p>
 
   <h2>10. Sicurezza</h2>
